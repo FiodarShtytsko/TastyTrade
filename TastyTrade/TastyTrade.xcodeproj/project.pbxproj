@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA9AA272B2F6B7A00E46C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA262B2F6B7A00E46C55 /* AppDelegate.swift */; };
+		CAA9AA292B2F6B7A00E46C55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA282B2F6B7A00E46C55 /* SceneDelegate.swift */; };
+		CAA9AA2B2B2F6B7A00E46C55 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA2A2B2F6B7A00E46C55 /* WatchlistViewController.swift */; };
+		CAA9AA2E2B2F6B7A00E46C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA9AA2C2B2F6B7A00E46C55 /* Main.storyboard */; };
+		CAA9AA312B2F6B7A00E46C55 /* TastyTrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA2F2B2F6B7A00E46C55 /* TastyTrade.xcdatamodeld */; };
+		CAA9AA332B2F6B7C00E46C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA9AA322B2F6B7C00E46C55 /* Assets.xcassets */; };
+		CAA9AA362B2F6B7C00E46C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA9AA342B2F6B7C00E46C55 /* LaunchScreen.storyboard */; };
+		CAA9AA412B2F6B7C00E46C55 /* TastyTradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA402B2F6B7C00E46C55 /* TastyTradeTests.swift */; };
+		CAA9AA4B2B2F6B7C00E46C55 /* TastyTradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA4A2B2F6B7C00E46C55 /* TastyTradeUITests.swift */; };
+		CAA9AA4D2B2F6B7C00E46C55 /* TastyTradeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA4C2B2F6B7C00E46C55 /* TastyTradeUITestsLaunchTests.swift */; };
+		CAA9AA5E2B30631B00E46C55 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA5D2B30631B00E46C55 /* StockTableViewCell.swift */; };
+		CAA9AA602B30663D00E46C55 /* WatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA5F2B30663D00E46C55 /* WatchlistViewModel.swift */; };
+		CAA9AA622B30944000E46C55 /* WathclistTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9AA612B30944000E46C55 /* WathclistTableViewHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAA9AA3D2B2F6B7C00E46C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA9AA1B2B2F6B7A00E46C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA9AA222B2F6B7A00E46C55;
+			remoteInfo = TastyTrade;
+		};
+		CAA9AA472B2F6B7C00E46C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA9AA1B2B2F6B7A00E46C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA9AA222B2F6B7A00E46C55;
+			remoteInfo = TastyTrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAA9AA232B2F6B7A00E46C55 /* TastyTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA9AA262B2F6B7A00E46C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAA9AA282B2F6B7A00E46C55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAA9AA2A2B2F6B7A00E46C55 /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		CAA9AA2D2B2F6B7A00E46C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAA9AA302B2F6B7A00E46C55 /* TastyTrade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TastyTrade.xcdatamodel; sourceTree = "<group>"; };
+		CAA9AA322B2F6B7C00E46C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAA9AA352B2F6B7C00E46C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAA9AA372B2F6B7C00E46C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA9AA3C2B2F6B7C00E46C55 /* TastyTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA9AA402B2F6B7C00E46C55 /* TastyTradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyTradeTests.swift; sourceTree = "<group>"; };
+		CAA9AA462B2F6B7C00E46C55 /* TastyTradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyTradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA9AA4A2B2F6B7C00E46C55 /* TastyTradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyTradeUITests.swift; sourceTree = "<group>"; };
+		CAA9AA4C2B2F6B7C00E46C55 /* TastyTradeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyTradeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAA9AA5D2B30631B00E46C55 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		CAA9AA5F2B30663D00E46C55 /* WatchlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewModel.swift; sourceTree = "<group>"; };
+		CAA9AA612B30944000E46C55 /* WathclistTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WathclistTableViewHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA9AA202B2F6B7A00E46C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA9AA392B2F6B7C00E46C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA9AA432B2F6B7C00E46C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA9AA1A2B2F6B7A00E46C55 = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA252B2F6B7A00E46C55 /* TastyTrade */,
+				CAA9AA3F2B2F6B7C00E46C55 /* TastyTradeTests */,
+				CAA9AA492B2F6B7C00E46C55 /* TastyTradeUITests */,
+				CAA9AA242B2F6B7A00E46C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA9AA242B2F6B7A00E46C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA232B2F6B7A00E46C55 /* TastyTrade.app */,
+				CAA9AA3C2B2F6B7C00E46C55 /* TastyTradeTests.xctest */,
+				CAA9AA462B2F6B7C00E46C55 /* TastyTradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA9AA252B2F6B7A00E46C55 /* TastyTrade */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA592B3062BF00E46C55 /* Watchlist */,
+				CAA9AA262B2F6B7A00E46C55 /* AppDelegate.swift */,
+				CAA9AA282B2F6B7A00E46C55 /* SceneDelegate.swift */,
+				CAA9AA322B2F6B7C00E46C55 /* Assets.xcassets */,
+				CAA9AA342B2F6B7C00E46C55 /* LaunchScreen.storyboard */,
+				CAA9AA372B2F6B7C00E46C55 /* Info.plist */,
+				CAA9AA2F2B2F6B7A00E46C55 /* TastyTrade.xcdatamodeld */,
+			);
+			path = TastyTrade;
+			sourceTree = "<group>";
+		};
+		CAA9AA3F2B2F6B7C00E46C55 /* TastyTradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA402B2F6B7C00E46C55 /* TastyTradeTests.swift */,
+			);
+			path = TastyTradeTests;
+			sourceTree = "<group>";
+		};
+		CAA9AA492B2F6B7C00E46C55 /* TastyTradeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA4A2B2F6B7C00E46C55 /* TastyTradeUITests.swift */,
+				CAA9AA4C2B2F6B7C00E46C55 /* TastyTradeUITestsLaunchTests.swift */,
+			);
+			path = TastyTradeUITests;
+			sourceTree = "<group>";
+		};
+		CAA9AA592B3062BF00E46C55 /* Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA5A2B3062D700E46C55 /* Views */,
+				CAA9AA2A2B2F6B7A00E46C55 /* WatchlistViewController.swift */,
+				CAA9AA2C2B2F6B7A00E46C55 /* Main.storyboard */,
+				CAA9AA5F2B30663D00E46C55 /* WatchlistViewModel.swift */,
+			);
+			path = Watchlist;
+			sourceTree = "<group>";
+		};
+		CAA9AA5A2B3062D700E46C55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAA9AA5D2B30631B00E46C55 /* StockTableViewCell.swift */,
+				CAA9AA612B30944000E46C55 /* WathclistTableViewHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA9AA222B2F6B7A00E46C55 /* TastyTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA9AA502B2F6B7C00E46C55 /* Build configuration list for PBXNativeTarget "TastyTrade" */;
+			buildPhases = (
+				CAA9AA1F2B2F6B7A00E46C55 /* Sources */,
+				CAA9AA202B2F6B7A00E46C55 /* Frameworks */,
+				CAA9AA212B2F6B7A00E46C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TastyTrade;
+			productName = TastyTrade;
+			productReference = CAA9AA232B2F6B7A00E46C55 /* TastyTrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAA9AA3B2B2F6B7C00E46C55 /* TastyTradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA9AA532B2F6B7C00E46C55 /* Build configuration list for PBXNativeTarget "TastyTradeTests" */;
+			buildPhases = (
+				CAA9AA382B2F6B7C00E46C55 /* Sources */,
+				CAA9AA392B2F6B7C00E46C55 /* Frameworks */,
+				CAA9AA3A2B2F6B7C00E46C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA9AA3E2B2F6B7C00E46C55 /* PBXTargetDependency */,
+			);
+			name = TastyTradeTests;
+			productName = TastyTradeTests;
+			productReference = CAA9AA3C2B2F6B7C00E46C55 /* TastyTradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAA9AA452B2F6B7C00E46C55 /* TastyTradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA9AA562B2F6B7C00E46C55 /* Build configuration list for PBXNativeTarget "TastyTradeUITests" */;
+			buildPhases = (
+				CAA9AA422B2F6B7C00E46C55 /* Sources */,
+				CAA9AA432B2F6B7C00E46C55 /* Frameworks */,
+				CAA9AA442B2F6B7C00E46C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA9AA482B2F6B7C00E46C55 /* PBXTargetDependency */,
+			);
+			name = TastyTradeUITests;
+			productName = TastyTradeUITests;
+			productReference = CAA9AA462B2F6B7C00E46C55 /* TastyTradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA9AA1B2B2F6B7A00E46C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CAA9AA222B2F6B7A00E46C55 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CAA9AA3B2B2F6B7C00E46C55 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAA9AA222B2F6B7A00E46C55;
+					};
+					CAA9AA452B2F6B7C00E46C55 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAA9AA222B2F6B7A00E46C55;
+					};
+				};
+			};
+			buildConfigurationList = CAA9AA1E2B2F6B7A00E46C55 /* Build configuration list for PBXProject "TastyTrade" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA9AA1A2B2F6B7A00E46C55;
+			productRefGroup = CAA9AA242B2F6B7A00E46C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA9AA222B2F6B7A00E46C55 /* TastyTrade */,
+				CAA9AA3B2B2F6B7C00E46C55 /* TastyTradeTests */,
+				CAA9AA452B2F6B7C00E46C55 /* TastyTradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA9AA212B2F6B7A00E46C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA9AA362B2F6B7C00E46C55 /* LaunchScreen.storyboard in Resources */,
+				CAA9AA332B2F6B7C00E46C55 /* Assets.xcassets in Resources */,
+				CAA9AA2E2B2F6B7A00E46C55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA9AA3A2B2F6B7C00E46C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA9AA442B2F6B7C00E46C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA9AA1F2B2F6B7A00E46C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA9AA622B30944000E46C55 /* WathclistTableViewHeader.swift in Sources */,
+				CAA9AA312B2F6B7A00E46C55 /* TastyTrade.xcdatamodeld in Sources */,
+				CAA9AA2B2B2F6B7A00E46C55 /* WatchlistViewController.swift in Sources */,
+				CAA9AA602B30663D00E46C55 /* WatchlistViewModel.swift in Sources */,
+				CAA9AA272B2F6B7A00E46C55 /* AppDelegate.swift in Sources */,
+				CAA9AA5E2B30631B00E46C55 /* StockTableViewCell.swift in Sources */,
+				CAA9AA292B2F6B7A00E46C55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA9AA382B2F6B7C00E46C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA9AA412B2F6B7C00E46C55 /* TastyTradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA9AA422B2F6B7C00E46C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA9AA4B2B2F6B7C00E46C55 /* TastyTradeUITests.swift in Sources */,
+				CAA9AA4D2B2F6B7C00E46C55 /* TastyTradeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAA9AA3E2B2F6B7C00E46C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA9AA222B2F6B7A00E46C55 /* TastyTrade */;
+			targetProxy = CAA9AA3D2B2F6B7C00E46C55 /* PBXContainerItemProxy */;
+		};
+		CAA9AA482B2F6B7C00E46C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA9AA222B2F6B7A00E46C55 /* TastyTrade */;
+			targetProxy = CAA9AA472B2F6B7C00E46C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAA9AA2C2B2F6B7A00E46C55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA9AA2D2B2F6B7A00E46C55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAA9AA342B2F6B7C00E46C55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA9AA352B2F6B7C00E46C55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAA9AA4E2B2F6B7C00E46C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAA9AA4F2B2F6B7C00E46C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAA9AA512B2F6B7C00E46C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TastyTrade/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shtytsko.TastyTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAA9AA522B2F6B7C00E46C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TastyTrade/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shtytsko.TastyTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAA9AA542B2F6B7C00E46C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shtytsko.TastyTradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TastyTrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TastyTrade";
+			};
+			name = Debug;
+		};
+		CAA9AA552B2F6B7C00E46C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shtytsko.TastyTradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TastyTrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TastyTrade";
+			};
+			name = Release;
+		};
+		CAA9AA572B2F6B7C00E46C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shtytsko.TastyTradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TastyTrade;
+			};
+			name = Debug;
+		};
+		CAA9AA582B2F6B7C00E46C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shtytsko.TastyTradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TastyTrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA9AA1E2B2F6B7A00E46C55 /* Build configuration list for PBXProject "TastyTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA9AA4E2B2F6B7C00E46C55 /* Debug */,
+				CAA9AA4F2B2F6B7C00E46C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA9AA502B2F6B7C00E46C55 /* Build configuration list for PBXNativeTarget "TastyTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA9AA512B2F6B7C00E46C55 /* Debug */,
+				CAA9AA522B2F6B7C00E46C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA9AA532B2F6B7C00E46C55 /* Build configuration list for PBXNativeTarget "TastyTradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA9AA542B2F6B7C00E46C55 /* Debug */,
+				CAA9AA552B2F6B7C00E46C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA9AA562B2F6B7C00E46C55 /* Build configuration list for PBXNativeTarget "TastyTradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA9AA572B2F6B7C00E46C55 /* Debug */,
+				CAA9AA582B2F6B7C00E46C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAA9AA2F2B2F6B7A00E46C55 /* TastyTrade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAA9AA302B2F6B7A00E46C55 /* TastyTrade.xcdatamodel */,
+			);
+			currentVersion = CAA9AA302B2F6B7A00E46C55 /* TastyTrade.xcdatamodel */;
+			path = TastyTrade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CAA9AA1B2B2F6B7A00E46C55 /* Project object */;
+}
